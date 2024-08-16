@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title01">
+            <h1>Consultar RRA</h1>
+            <span>Puede consultar por fragmentos de texto y el año 2000 indica cualquier año</span>
+        </div>
+        <div class="filter" >
+            <input type="text" id="unidad" placeholder="unidad administrativa" title="Unidad administrativa" >
+            <input type="text" id="tipo" placeholder="Tipo de Bien/Servicio" title="Bien/Servicio">
+            <input type="date" id="fecha" placeholder="fecha de adquisicion" title="Fecha" value="2000-01-01">
+            <input type="text" id="proveedor" placeholder="proveedor" title="Proveedor">
+        </div>
+        <div class="menufilter">
+            <button onclick="Filter()">Filtrar</button>
+            <button onclick="Close()">Cerrar</button>
+        </div>
+        <table id="items" class="table01">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>PRESUPUESTO</th>
+                    <th>UNIDAD</th>
+                    <th>BIEN/SERVICIO</th>  
+                    <th>CANTIDAD</th>
+                    <th>VALOR UNITARIO</th>
+                    <th>VALOR TOTAL</th>
+                    <th>ADQUISICION</th>
+                    <th>PROVEEDOR</th>
+                    <th>DOCUMENTACION</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody> 
+        </table>
+    </div>
+    <script src="scriptconsult.js"></script>
+</body>
+
+</html>

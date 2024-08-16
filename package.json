@@ -1,0 +1,20 @@
+{
+  "name": "adresjs",
+  "version": "0.0.0",
+  "description": "ADRESjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "Cesar-ALO"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {
+  }
+}
